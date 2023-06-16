@@ -41,6 +41,6 @@ const StarsCanvas = () => {
                 <Preload all />
             </Canvas>
         </div>
-    ); 
-}; 
+    );
+};
 export default StarsCanvas;

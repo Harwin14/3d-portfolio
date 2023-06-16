@@ -1,6 +1,10 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
+import PlanetCanvas from "./canvas/Planet";
+import { OrbitControls, Stage } from "@react-three/drei";
+import Moon from "./Moon";
+import { Canvas } from "@react-three/fiber";
 
 const Hero = () => {
     return (
@@ -17,14 +21,21 @@ const Hero = () => {
                         Hi, I'm <span className="text-[#915eff]">Harwin</span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        i develope 3d visuals, user
+                         develope 3d visuals, user
                         <br className="sm:block hidden" />
                         interfaces and web applications
                     </p>
                     {/* hello im Agung harwin , i develope 3d visuals, user interfaces and web application */}
                 </div>
             </div>
-            <ComputersCanvas />
+            <PlanetCanvas />
+                {/* <Canvas>
+                    <Stage environment="city" intensity={0.6} >
+                        <Moon />
+                    </Stage>
+                    <OrbitControls enableZoom={false} autoRotate />
+                </Canvas> */}
+            {/* <ComputersCanvas /> */}
             <div className="absolute xs:bottom:10 bottom-32 w-full flex justify-center items-center">
                 <a href="#about">
                     <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">

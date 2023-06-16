@@ -46,11 +46,12 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Praesentium similique dolore voluptates. At repellendus rem
-                molestiae distinctio, libero placeat consequuntur iusto
-                voluptas, esse aliquid reiciendis! Et doloremque voluptas
-                debitis rem.
+                i'm fresh graduate from Rubicamp "full-stack
+                programming Bootcamp", very interested about programming and web
+                design especially mobile developer, i love to learn new
+                technology nowadays, able to work individual or in a team, i'm
+                looking for job opportunity as developer / programmer where my
+                passion can be applied.
             </motion.p>
             <div className="mt-20 flex flex-wrap gap-10">
                 {services.map((service, index) => (

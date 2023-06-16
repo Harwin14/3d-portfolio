@@ -22,11 +22,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import vue from './tech/vue.png'
+import graphql from './tech/graphql.png'
+import postgre from './tech/postgre.png'
+import sqlite3 from './tech/sqlite3.png'
+import next from './tech/next.svg'
+import mysql from './tech/mysql.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import alfa from "./company/alfa.png"
+import astra from "./company/astra.png"
+import rubicamp from './company/rubicamp.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -63,4 +72,13 @@ export {
     jobit,
     tripguide,
     harwin,
+    alfa,
+    astra,
+    rubicamp,
+    vue,
+    graphql,
+    postgre,
+    next,
+    sqlite3,
+    mysql
 };
