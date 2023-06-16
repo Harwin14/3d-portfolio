@@ -36,7 +36,7 @@ import tesla from "./company/tesla.png";
 import alfa from "./company/alfa.png"
 import astra from "./company/astra.png"
 import rubicamp from './company/rubicamp.png'
- 
+  
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
