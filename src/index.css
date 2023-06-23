@@ -606,9 +606,103 @@
     opacity: 1;
   }
 }
+@media only screen and (max-width: 1000px) {
+    .card_button{
+        width:800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: -70px;
+    }
+    .glowing-btn{
+      font-size: 1.7em;
+    }
+  }
+  
+
+@media only screen and (max-width: 800px) {
+    .card_button{
+        width:600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: -70px;
+    }
+    .glowing-btn{
+      font-size: 1.7em;
+    }
+  }
+  
 
 @media only screen and (max-width: 600px) {
-  .glowing-btn{
-    font-size: 1em;
+    .card_button{
+        width:500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: -70px;
+    }
+    .glowing-btn{
+      font-size: 1.5em;
+    }
+    .wrapper_cv{
+        width: 320px;
+    }
   }
-}
+
+@media only screen and (max-width: 500px) {
+    .card_button{
+        width:400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: -70px;
+    }
+    .glowing-btn{
+      font-size: 1.5em;
+    }
+    .wrapper_cv{
+        width: 320px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .card_button{
+        width:350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: -70px;
+    }
+    .glowing-btn{
+      font-size: 1.5em;
+    }
+    .wrapper_cv{
+        width: 320px;
+    }
+  }
+  
