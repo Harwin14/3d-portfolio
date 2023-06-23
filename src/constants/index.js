@@ -34,6 +34,17 @@ import {
     sqlite3,
 } from "../assets";
 
+import {
+    car,
+    dalle,
+    graph,
+    kopi,
+    meals,
+    mgs,
+    phonebooks,
+    pos,
+} from "../assets/project";
+
 export const navLinks = [
     {
         id: "about",
@@ -82,6 +93,10 @@ const technologies = [
         icon: javascript,
     },
     {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
         name: "React JS",
         icon: reactjs,
     },
@@ -90,37 +105,32 @@ const technologies = [
         icon: redux,
     },
     {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-  
-    {
         name: "vue",
         icon: vue,
-    },
-    {
-        name: "graphql",
-        icon: graphql,
     },
     {
         name: "nextjs",
         icon: next,
     },
     {
-        name: "postgre",
-        icon: postgre,
+        name: "Tailwind CSS",
+        icon: tailwind,
     },
     {
         name: "sqlite",
         icon: sqlite3,
+    },
+    {
+        name: "postgre",
+        icon: postgre,
+    },
+    {
+        name: "MongoDB",
+        icon: mongodb,
+    },
+    {
+        name: "graphql",
+        icon: graphql,
     },
 ];
 
@@ -183,7 +193,7 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+            "I thought it was impossible to make a website as beautiful as our product, but Harwin proved me wrong.",
         name: "Sara Lee",
         designation: "CFO",
         company: "Acme Co",
@@ -191,7 +201,7 @@ const testimonials = [
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
+            "I've never met a web developer who truly cares about their clients' success like Harwin does.",
         name: "Chris Brown",
         designation: "COO",
         company: "DEF Corp",
@@ -199,7 +209,7 @@ const testimonials = [
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+            "After Harwin optimized our website, our traffic increased by 50%. We can't thank them enough!",
         name: "Lisa Wang",
         designation: "CTO",
         company: "456 Enterprises",
@@ -209,67 +219,156 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Point of Sales",
+        description:
+            "Web application with the function of making the buying and selling transaction process easier as it is used in every minimarket and also has other functions such as item data, supplier data, member data and monthly sales reports.",
+        tags: [
+            {
+                name: "Jquery",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "PostgreSQL",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Express",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Bootstrap",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: pos,
+        source_code_link: "https://github.com/Harwin14/Point-Of-Sales",
+        dribble_Source: "https://dribbble.com/shots/21507278-Point-Of-Sales",
+    },
+    {
+        name: "Phonebooks",
+        description:
+            "  is an Android-based application built with React-Native, while the website version is built with React-Redux-Slice and used to store contact numbers. Made in several versions, ( React, Redux, Hooks, Redux-Slice , React-Graphql and Vue )",
+        tags: [
+            {
+                name: "React-native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Redux",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Vue",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "PostgreSQL",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Bootstrap",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: phonebooks,
+        source_code_link: "https://github.com/Harwin14/ReactNative-Phonebook",
+        dribble_Source: "https://dribbble.com/shots/21507298-Phonebooks-app",
+    },
+    {
+        name: "Phonebooks-graphql",
+        description: "Web application built with react and graphql",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "MongoDb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Graphql",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Bootstrap",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: graph,
+        source_code_link: "https://github.com/Harwin14/react-graphql-restart",
+        dribble_Source:
+            "https://dribbble.com/shots/21784715-React-graphql-PhoneBook-apps",
+    },
+    {
+        name: "Meals-web",
+        description:
+            "is a website where we can get food recipes almost all over the world, and we can search by name,letter or ingredients.",
+        tags: [
+            {
+                name: "Vue",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Vite",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: meals,
+        source_code_link:
+            "https://github.com/Harwin14/Vue-Phonebook/tree/main/vuejs-search-meals",
+            dribble_Source: "https://dribbble.com/shots/21784723-Meals-web",
+    },
+    {
+        name: "Test-project",
+        description: "Frontend programming test with vuejs.",
+        tags: [
+            {
+                name: "Vue",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Vite",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: mgs,
+        source_code_link: "https://github.com/Harwin14/MGS-test",
+        dribble_Source: "https://dribbble.com/shots/21784730-test-project",
+    },
+    {
+        name: "Car-showcase",
         description:
             "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "Next",
+                color: "pink-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: car,
+        source_code_link: "https://github.com/Harwin14/car_showcase",
+        dribble_Source: "https://dribbble.com/shots/21784742-Car-showcase",
     },
 ];
 

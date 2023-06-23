@@ -1,14 +1,10 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-// import { ComputersCanvas } from "./canvas";
-import PlanetCanvas from "./canvas/Planet";
-import { OrbitControls, Stage } from "@react-three/drei";
-import Moon from "./Moon";
-import { Canvas } from "@react-three/fiber";
+import { MoonCanvas } from "./canvas";
 
 const Hero = () => {
     return (
-        <section className="relative relative w-full h-screen mx-auto">
+        <section className=" relative w-full h-screen mx-auto ">
             <div
                 className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}
             >
@@ -16,26 +12,20 @@ const Hero = () => {
                     <div className="w-5 h-5 rounded-full bg-[#915eff]" />
                     <div className="w-1 sm:h-80 h-40 violet-gradient" />
                 </div>
-                <div>
+                <div className="z-10">
                     <h1 className={`${styles.heroHeadText}text-white`}>
                         Hi, I'm <span className="text-[#915eff]">Harwin</span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                         develope 3d visuals, user
+                        i develope 3d visuals, user
                         <br className="sm:block hidden" />
-                        interfaces and web applications
+                        interfaces and web applications..
+                        <br /> <i>not yet..</i>
                     </p>
                     {/* hello im Agung harwin , i develope 3d visuals, user interfaces and web application */}
                 </div>
             </div>
-            <PlanetCanvas />
-                {/* <Canvas>
-                    <Stage environment="city" intensity={0.6} >
-                        <Moon />
-                    </Stage>
-                    <OrbitControls enableZoom={false} autoRotate />
-                </Canvas> */}
-            {/* <ComputersCanvas /> */}
+            <MoonCanvas />
             <div className="absolute xs:bottom:10 bottom-32 w-full flex justify-center items-center">
                 <a href="#about">
                     <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">

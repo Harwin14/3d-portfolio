@@ -46,9 +46,9 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
             >
-                i'm fresh graduate from Rubicamp "full-stack
-                programming Bootcamp", very interested about programming and web
-                design especially mobile developer, i love to learn new
+                I'm fresh graduate from Rubicamp "full-stack
+                programming Bootcamp",<br/> very interested about programming and web
+                design especially mobile developer,<br/>  i love to learn new
                 technology nowadays, able to work individual or in a team, i'm
                 looking for job opportunity as developer / programmer where my
                 passion can be applied.

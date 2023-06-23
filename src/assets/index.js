@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import dribbble from "./dribbble.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import harwin from "./harwin.svg";
@@ -40,6 +41,7 @@ import rubicamp from './company/rubicamp.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pos from "./pos.png";
 
 export {
     H,
@@ -80,5 +82,7 @@ export {
     postgre,
     next,
     sqlite3,
-    mysql
+    mysql,
+    pos,
+    dribbble
 };

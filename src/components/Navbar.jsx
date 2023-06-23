@@ -31,7 +31,7 @@ const Navbar = () => {
                     />
                     <p className="text-white text-[18px] font-bold cursor-pointer flex">
                         Agung Harwin N &nbsp;
-                        <span className="sm:block hidden">| Junior Programmer
+                        <span className="sm:block hidden">| Portfolio Web
                         </span>
                     </p>
                 </Link>
