@@ -7,9 +7,8 @@ import Wa from "./Wa";
 function DownloadButton() {
     const handleClick = () => {
         window.location.href =
-            "https://drive.google.com/uc?export=download&id=1dPA2N1TvgXGBsSLoz3ibMeLg5pQ2kfdR";
+            "https://drive.google.com/uc?export=download&id=1q3hP70gt1_MKQcf4f0CIKWz91lxrZ0tQ";
     };
-
     return (
         <button
             onClick={handleClick}
